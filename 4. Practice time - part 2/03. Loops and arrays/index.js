@@ -1,4 +1,4 @@
-let largeCountries = ["China","India","USA","Indonesia","Pakistan"]
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
 
 /* Use a for loop to log the following to the console:
 
@@ -9,3 +9,7 @@ The 5 largest countries in the world:
 - Indinesia
 - Pakistan
 */
+for (country = 0; country < largeCountries.length; country += 1) {
+ let countriesList = largeCountries[country]
+ console.log(countriesList)
+}
