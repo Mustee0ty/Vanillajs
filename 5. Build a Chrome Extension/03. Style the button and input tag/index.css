@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 10px;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -12,11 +12,25 @@ green color -> #5f9341
 
 */
 
-
 input {
-    
+ width: 100%;
+ padding-left: 10px;
+ padding-right: 10px;
+ box-sizing: border-box;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border: 1px solid #5f9341;
 }
 
 button {
-    
+ background-color: #5f9341;
+ color: white;
+ height: auto;
+ width: auto;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-top: 10px;
+ border: none;
 }
